@@ -1,20 +1,28 @@
 {
-    "name": "caption-website",
-    "version": "1.0.0",
-    "description": "Website for Caption app",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/motif/MoonbaseTemplate.git"
-    },
-    "author": "Giel Cobben",
-    "license": "",
-    "homepage": "http://getcaption.co/",
-    "devDependencies": {
-        "coffee-script": "^1.10.0",
-        "moonbase": "^1.6.*"
-    }
+  "name": "CaptionWebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gielcobben/CaptionWebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gielcobben/CaptionWebsite/issues"
+  },
+  "homepage": "https://github.com/gielcobben/CaptionWebsite#readme",
+  "dependencies": {
+    "next": "^3.2.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
 }

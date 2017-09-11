@@ -1,0 +1,6 @@
+
+          window.__NEXT_REGISTER_PAGE('/', function() {
+            var comp = module.exports=webpackJsonp([4],{365:function(e,t,a){e.exports=a(366)},366:function(e,t,a){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(t,"__esModule",{value:!0});var u=a(4),n=l(u),d=a(180),i=l(d),r=a(181),s=l(r),f=a(379),c=l(f),o=a(187),m=l(o),x=function(){return n.default.createElement(i.default,null,n.default.createElement(s.default,{title:"Caption",subtitle:"Find the right subtitles. Easy.",download:!0}),n.default.createElement(c.default,null),n.default.createElement(m.default,null))};t.default=x},379:function(e,t,a){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(t,"__esModule",{value:!0});var u=a(31),n=l(u),d=a(4),i=l(d),r=function(){return i.default.createElement("section",{"data-jsx":495187431},i.default.createElement("img",{src:"/static/images/video@2x.png","data-jsx":495187431}),i.default.createElement(n.default,{styleId:495187431,css:'section[data-jsx="495187431"]{-webkit-flex:1;-ms-flex:1;flex:1;margin:32px 0}img[data-jsx="495187431"]{display:block;margin:0 auto;width:100%;max-width:493px}'}))};t.default=r}},[365]);
+            return { page: comp.default }
+          })
+        
